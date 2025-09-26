@@ -175,4 +175,5 @@ pyrightconfig.json
 *.csv
 *.json
 *.jsonl
+*.png
 .vscode/
