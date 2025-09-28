@@ -172,8 +172,10 @@ pyrightconfig.json
 
 # Custom files and directories
 .DS_Store
-*.csv
-*.json
-*.jsonl
+# *.csv
+# *.json
+# *.jsonl
 *.png
 .vscode/
+data/*
+data_cleaned/*
