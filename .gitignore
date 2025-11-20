@@ -179,3 +179,5 @@ pyrightconfig.json
 .vscode/
 data/*
 data_cleaned/*
+gdelt_data/*
+phase*.md
