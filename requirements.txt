@@ -1,5 +1,11 @@
-matplotlib
 pandas
+numpy
+matplotlib
 seaborn
 scikit-learn
-optuna
+# pyspark is already in the docker image, but keeping it here is fine
+pyspark
+# For MCP later
+fastapi
+uvicorn
+mcp

@@ -1,0 +1,14 @@
+services:
+  spark-notebook:
+    build: .
+    image: eas587-project
+    container_name: reddit_spark_lab
+    ports:
+      - "8888:8888" # JupyterLab UI
+      - "4040:4040" # Spark UI (for monitoring jobs)
+    volumes:
+      - .:/home/jovyan/work # Maps your current folder to the container's work folder
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - GRANT_SUDO=yes
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
