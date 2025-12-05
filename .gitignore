@@ -176,6 +176,7 @@ pyrightconfig.json
 # *.json
 # *.jsonl
 *.png
+*.tex
 .vscode/
 data/*
 data_cleaned/*
