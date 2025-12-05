@@ -9,3 +9,4 @@ pyspark
 fastapi
 uvicorn
 mcp
+optuna
